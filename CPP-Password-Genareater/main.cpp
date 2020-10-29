@@ -5,13 +5,14 @@
 
 void logo();
 int main(){
-        
+            logo();
             std::string Kennwort = "";
             int Numlenght;
             srand(time(NULL));
             std::cout << "Password Lenght?" << std::endl;
             std::cin >> Numlenght;
-            logo();
+            std::cout << std::endl;
+           
             
             for(int i=0;i < Numlenght;i++)
             {  
@@ -237,14 +238,14 @@ int main(){
 
 void logo()
 {
-     for (int i = 0; i < 8; i++)
+     for (int i = 0; i < 50; i++)
      {
          std::cout << "*";
      }
      std::cout << std::endl;
      std::cout <<  "\tPassword Generater" << std::endl;
      std::cout << "\tby Deniz K. Sogukpinar" << std::endl;
-      for (int i = 0; i < 8; i++)
+      for (int i = 0; i < 50; i++)
      {
          std::cout << "*";
      }
