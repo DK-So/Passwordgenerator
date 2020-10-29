@@ -11,7 +11,7 @@ int main(){
             srand(time(NULL));
             std::cout << "Password Lenght?" << std::endl;
             std::cin >> Numlenght;
-            Logo();
+            logo();
             
             for(int i=0;i < Numlenght;i++)
             {  
@@ -235,7 +235,7 @@ int main(){
             system("PAUSE");
 }
 
-void Logo()
+void logo()
 {
      for (int i = 0; i < 8; i++)
      {
