@@ -5,9 +5,10 @@
 int main(){
         
             std::string Kennwort = "";
-            int Numlenght = 5;
+            int Numlenght;
             srand(time(NULL));
-            
+            std::cout << "Password Lenght?" << std::endl;
+            std::cin >> Numlenght;
             Logo();
             
             for(int i=0;i < Numlenght;i++)
