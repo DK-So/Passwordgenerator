@@ -1,23 +1,18 @@
 #include<iostream>
-#include<random>
-#include<time.h>
-
-using namespace std;
+#include<random> //This libary are needed for srand-fuc
+#include<time.h> // This libary is needed to seet srand-code to difference 
 
 int main(){
         
-            string  Kennwort = "";
+            std::string Kennwort = "";
             int Numlenght = 5;
             srand(time(NULL));
             
             Logo();
             
             for(int i=0;i < Numlenght;i++)
-            {
-                
+            {  
                 int Numb = rand() % 71;
-               
-
                 switch (Numb)
                 {
                     case 1:
@@ -233,7 +228,7 @@ int main(){
                }
                
             }
-            cout << Kennwort << endl;
+            std::cout << Kennwort << std::endl;
             system("PAUSE");
 }
 
@@ -243,9 +238,9 @@ void Logo()
      {
          std::cout << "*";
      }
-     std::endl;
+     std::cout << std::endl;
      std::cout <<  "\tPassword Generater" << std::endl;
-     std::cout << "\tby Deniz K. Sogukpinar" << std:endl;
+     std::cout << "\tby Deniz K. Sogukpinar" << std::endl;
       for (int i = 0; i < 8; i++)
      {
          std::cout << "*";
