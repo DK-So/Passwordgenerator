@@ -1,7 +1,9 @@
 #include<iostream>
 #include<random> //This libary are needed for srand-fuc
 #include<time.h> // This libary is needed to seet srand-code to difference 
+#include<string> // Need to use string 
 
+void logo();
 int main(){
         
             std::string Kennwort = "";
