@@ -9,6 +9,7 @@ int main(){
             std::string Kennwort = "";
             int Numlenght;
             srand(time(NULL));
+            std::cout << std::endl;
             std::cout << "Password Lenght?" << std::endl;
             std::cin >> Numlenght;
             std::cout << std::endl;
@@ -243,7 +244,7 @@ void logo()
          std::cout << "*";
      }
      std::cout << std::endl;
-     std::cout <<  "\tPassword Generater" << std::endl;
+     std::cout <<  "\t \b Password Generater" << std::endl;
      std::cout << "\tby Deniz K. Sogukpinar" << std::endl;
       for (int i = 0; i < 50; i++)
      {
